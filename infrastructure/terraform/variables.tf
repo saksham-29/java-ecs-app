@@ -22,3 +22,4 @@ variable "task_cpu" {}
 variable "task_memory" {}
 variable "desired_count" {}
 variable "image_tag" {}
+variable "alert_email" {}

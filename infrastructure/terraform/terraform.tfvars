@@ -11,11 +11,13 @@ alb_ingress_cidr  = "0.0.0.0/0"
 alb_listener_port = 80
 
 log_retention_days = 14
-image_tag          = "latest"
+image_tag          = "e4ac714d0c8bd04e39d94ccaaf0f070d329da335"
 
 
 container_port = 8080
 task_cpu       = 512
 task_memory    = 1024
 desired_count  = 1
+
+alert_email = "sakshamsaxena16@gmail.com"
 
